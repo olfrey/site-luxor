@@ -21,83 +21,587 @@
 	<![endif]-->
 </head>
 <body>
-<!-- <div class="pp"><img src="upload/1170_LuxorWatch_64.jpg" alt=""></div> -->
+<!-- <div class="pp"><img src="upload/768_LuxorWatch_14.psd.png" alt=""></div> -->
 <div class="main-wrap">
 	<header class="header">
 		<div class="case">
 			<div class="panel">
 				<div class="panel__wrap row">
 					<div class="panel__logo logo">
-						<div class="logo__img"><img src="" alt=""></div>
+						<div class="logo__img"><img src="upload/svg/logo.svg" alt=""></div>
 						<div class="logo__text">Сервисный центр в Санкт-Петербурге</div>
 					</div>
-					<div class="panel__addresses">
+					<div class="panel__addresses addresses">
 						<div class="addresses__item">
-							<div class="addresses__icon"></div>
-							<div class="addresses__text"><a href="#">ул. Рюхина, дом 12, пом. 8-Н</a></div>
+							<div class="addresses__icon"><img src="upload/svg/placeholder.svg" alt=""></div>
+							<div class="addresses__text"><a href="#contacts">ул. Рюхина, дом 12, пом. 8-Н</a></div>
 						</div>
 						<div class="addresses__item">
-							<div class="addresses__icon"></div>
-							<div class="addresses__text"><a href="#">Невский пр., дом 14, пом. 214</a></div>
+							<div class="addresses__icon"><img src="upload/svg/placeholder.svg" alt=""></div>
+							<div class="addresses__text"><a href="#contacts">Невский пр., дом 14, пом. 214</a></div>
 						</div>
 					</div>
 					<div class="panel__contacts">
-						<div class="panel__phone"><a href="tel:+78121234567">+7 (812) 123-45-67</a></div>
-						<div class="panel__callback"><a data-fancybox data-src="#" href="javascript:;">Заказать звонок</a></div>
-						<div class="panel__insta"><a href="" target="_blank"></a></div>
+						<div class="panel__phone"><img src="upload/svg/phone.svg" alt=""><a href="tel:+78121234567">+7 (812) 123-45-67</a></div>
+						<div class="panel__callback"><a data-fancybox data-src="#popup-callback" href="javascript:;">Заказать звонок</a></div>
 					</div>
+					<div class="panel__insta"><a href="" target="_blank"><i class="icon icon-instagram-yellow"></i><i class="icon icon-instagram-white"></i></a></div>
 				</div>
 			</div>
 			<nav class="nav">
 				<ul>
-					<li><a href="#">услуги</a></li>
-					<li><a href="#">о компании</a></li>
-					<li><a href="#">отзывы</a></li>
-					<li><a href="#">наши работы</a></li>
-					<li><a href="#">контакты</a></li>
+					<li><a href="#services">услуги</a></li>
+					<li><a href="#about">о компании</a></li>
+					<li><a href="#reviews">отзывы</a></li>
+					<li><a href="#portfolio">наши работы</a></li>
+					<li><a href="#contacts">контакты</a></li>
 				</ul>
 			</nav>
 			<div class="header__title">Ремонтируем элитные швейцарские часы с 2000 года</div>
 			<div class="we">
 				<div class="we__list row">
-					<div class="we__item line">
-						<div class="we__icon"></div>
+					<div class="we__item line row">
+						<div class="we__icon"><img src="upload/svg/review.svg" alt=""></div>
 						<div class="we__text">Консультация, оценка и осмотр —  бесплатно</div>
 					</div>
-					<div class="we__item line">
-						<div class="we__icon"></div>
-						<div class="we__text">Наши мастера сертифицированы ведущими часовыми компаниями, а за качество отвечаем своей репутацией</div>
+					<div class="we__item line row">
+						<div class="we__icon"><img src="upload/svg/sheild.svg" alt=""></div>
+						<div class="we__text">Наши мастера сертифицированы ведущими часовыми компаниями, <br>а за качество отвечаем своей репутацией</div>
 					</div>
 				</div>
 			</div>
-			<div class="calc lalc">
-				<div class="calc__title title">Калькулятор стоимости online</div>
-				<div class="calc__wrap row line">
-					<div class="calc__select select">
-						<label class="select__icon"></label>
-						<select class="select__wrap" data-placeholder="Тип часов">
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-						</select>
+			<div class="calc">
+				<div class="calc__title title title_white line line_left">Калькулятор стоимости online</div>
+				<div class="calc__wrap row drops">
+					<div class="calc__drop drop">
+						<div class="drop__area">
+							<div class="drop__icon">
+								<img src="upload/svg/battary-gray.svg" alt="">
+								<img src="upload/svg/battary-yellow.svg" alt="">
+								<img src="upload/svg/battary-red.svg" alt="">
+							</div>
+							<div class="drop__title">Тип часов</div>
+							<div class="drop__input"><input type="text"></div>
+							<div class="drop__arrow"><img src="upload/svg/arrow-down-blue.svg" alt=""></div>
+						</div>
+						<div class="drop__error">Укажите тип часов</div>
+						<div class="drop__list drop__list_small type">
+							<div class="drop__item"><input type="radio" name="type" name="type" value="mechanical"><label>Механические</label></div>
+							<div class="drop__item"><input type="radio" name="type" name="type" value="quartz"><label>Кварцевые</label></div>
+						</div>
 					</div>
-					<div class="calc__select select">
-						<label class="select__icon"></label>
-						<select class="select__wrap" data-placeholder="Марка часов">
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-						</select>
+					<div class="calc__drop drop">
+						<div class="drop__area">
+							<div class="drop__icon">
+								<img src="upload/svg/wristwatch-gray.svg" alt="">
+								<img src="upload/svg/wristwatch-yellow.svg" alt="">
+								<img src="upload/svg/wristwatch-red.svg" alt="">
+							</div>
+							<div class="drop__title">Марка часов</div>
+							<div class="drop__input"><input type="text"></div>
+							<div class="drop__arrow"><img src="upload/svg/arrow-down-blue.svg" alt=""></div>
+						</div>
+						<div class="drop__error">Укажите марку часов</div>
+						<div class="drop__list drop__list_full drop__list_full-1">
+							<div class="nano">
+								<div class="nano-content">
+									<div class="alfabet">
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li class="selected"><input type="radio" name="brand" value="Alpina"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+										<div class="alfabet__block">
+											<div class="alfabet__head">A</div>
+											<div class="alfabet__body">
+												<ul>
+													<li><input type="radio" name="brand" value="Appella"><label>Appella</label></li>
+													<li><input type="radio" name="brand" value="Anne Klein"><label>Anne Klein</label></li>
+													<li><input type="radio" name="brand" value="Armani"><label>Armani</label></li>
+													<li><input type="radio" name="brand" value="Aviator"><label>Aviator</label></li>
+													<li><input type="radio" name="brand" value="Armand Nicolet"><label>Armand Nicolet</label></li>
+													<li><input type="radio" name="brand" value="Alpina"><label>Alpina</label></li>
+													<li><input type="radio" name="brand" value="Aerowatch"><label>Aerowatch</label></li>
+													<li><input type="radio" name="brand" value="Auguste Reymond"><label>Auguste Reymond</label></li>
+													<li><input type="radio" name="brand" value="Audemars Piguet"><label>Audemars Piguet</label></li>
+													<li><input type="radio" name="brand" value="Arnold & Son"><label>Arnold & Son</label></li>
+													<li><input type="radio" name="brand" value="Alain Silberstein"><label>Alain Silberstein</label></li>
+													<li><input type="radio" name="brand" value="Atlantic"><label>Atlantic</label></li>
+													<li><input type="radio" name="brand" value="A. Lange & Söhne"><label>A. Lange & Söhne</label></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="calc__select select">
-						<label class="select__icon"></label>
-						<select class="select__wrap" data-placeholder="Вид услуги">
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-						</select>
+					<div class="calc__drop drop">
+						<div class="drop__area">
+							<div class="drop__icon">
+								<img src="upload/svg/tools-gray.svg" alt="">
+								<img src="upload/svg/tools-yellow.svg" alt="">
+								<img src="upload/svg/tools-red.svg" alt="">
+							</div>
+							<div class="drop__title">Вид услуги</div>
+							<div class="drop__input"><input type="text"></div>
+							<div class="drop__arrow"><img src="upload/svg/arrow-down-blue.svg" alt=""></div>
+						</div>
+						<div class="drop__error">Укажите вид услуги</div>
+						<div class="drop__list drop__list_full drop__list_full-2">
+							<div class="nano">
+								<div class="nano-content">
+									<div class="checkboxs">
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Подгонка ремешка под размер руки</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Замена источника питания</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Чистка браслета и корпуса</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Мелкий ремонт</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Регулировка точности хода</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Установка ремешка (браслета)</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Полный ремонт часов</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Замена головки или кнопки</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Проверка на герметичность</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Проверка точности хода</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											<div class="checkbox">
+												<input type="checkbox" class="checkbox__input">
+												<label for="" class="checkbox__title">Другое</label>
+											</div>
+										</div>
+										<div class="checkboxs__item">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<button class="calc__btn btn btn_color-blue">Рассчитать стоимость</button>
+					<button class="calc__btn btn">Рассчитать стоимость</button>
 				</div>
 			</div>
 		</div>
@@ -105,46 +609,46 @@
 
 
 	<main class="main">
-		<div class="advantages">
+		<div class="advantages" id="advantages">
 			<div class="case">
 				<div class="advantages__title title line">5 причин, почему вам стоит к нам обратиться</div>
 				<div class="advantages__list row between">
 					<div class="advantages__item">
 						<div class="advantages__count">01</div>
 						<div class="advantages__name">Качество</div>
-						<div class="advantages__icon"></div>
-						<div class="advantages__text">Используем исключительно сертифицированное оборудование и инструменты</div>
+						<div class="advantages__icon"><img src="upload/svg/quality.svg" alt=""></div>
+						<div class="advantages__text">Используем <br>исключительно <br>сертифицированное оборудование<br> и инструменты</div>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__count">02</div>
 						<div class="advantages__name">Доверие</div>
-						<div class="advantages__icon"></div>
+						<div class="advantages__icon"><img src="upload/svg/purse.svg" alt=""></div>
 						<div class="advantages__text">Никаких предоплат: рассчитайтесь, когда оцените результат</div>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__count">03</div>
 						<div class="advantages__name">Безопасность</div>
-						<div class="advantages__icon"></div>
-						<div class="advantages__text">Эталонная безопасность: все сдаваемые в ремонт часы страхуются за наш счёт</div>
+						<div class="advantages__icon"><img src="upload/svg/sheild.svg" alt=""></div>
+						<div class="advantages__text">Эталонная безопасность: все сдаваемые в ремонт <br>часы страхуются <br>за наш счёт</div>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__count">04</div>
 						<div class="advantages__name">Точность</div>
-						<div class="advantages__icon"></div>
-						<div class="advantages__text">Ценим точность: вложимся в оговоренные сроки, или сделаем ремонт бесплатно</div>
+						<div class="advantages__icon"><img src="upload/svg/calendar.svg" alt=""></div>
+						<div class="advantages__text">Ценим точность: <br>вложимся в оговоренные <br>сроки, или сделаем <br>ремонт бесплатно</div>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__count">05</div>
 						<div class="advantages__name">Надёжность</div>
-						<div class="advantages__icon"></div>
+						<div class="advantages__icon"><img src="upload/svg/within.svg" alt=""></div>
 						<div class="advantages__text">Закажем необходимые детали у производителя напрямую</div>
 					</div> 
 				</div>
 			</div>
 		</div>
-		<div class="full">
+		<div class="full" id="full">
 			<div class="case">
-				<div class="full__title title title_line line">Ремонт швейцарских часов «под ключ»</div>
+				<div class="full__title title title_white title_line line">Ремонт швейцарских часов «под ключ»</div>
 				<div class="full__data">
 					<ul>
 						<li>Тестирование и диагностика всех механизмов;</li>
@@ -155,185 +659,229 @@
 					</ul>
 				</div>
 				<div class="full__offer offer line row">
-					<div class="offer__icon"></div>
+					<div class="offer__icon"><img src="upload/svg/discount.svg" alt=""></div>
 					<div class="offer__content">
 						<div class="offer__title">Специальное предложение:</div>
-						<div class="offer__content">уже после первого обращения, подарим вам <span class="color-orange">20% скидку</span> на все будущие заказы, включая ремонт и плановое обслуживание.</div>
-						<a href="" class="offer__btn btn btn_color-white">Заказать ремонт</a>
+						<div class="offer__text">уже после первого обращения, подарим вам <span class="color-orange">20% скидку</span> на все будущие заказы, включая ремонт и плановое обслуживание.</div>
+						<a data-fancybox data-src="#popup-order" href="javascript:;" class="offer__btn btn btn_color-white">Заказать ремонт</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="scheduled">
+		<div class="scheduled" id="scheduled">
 			<div class="case">
 				<div class="scheduled__title title line">Плановое обслуживание</div>
 				<div class="scheduled__desc">Продлите жизнь своим часам с услугой планового обслуживания от сервиса <span class="color-yellow">«LUXOR.WATCH»</span></div>
 				<div class="scheduled__wrap row">
-					<div class="scheduled__img"><img src="" alt=""></div>
+					<div class="scheduled__img"><img src="upload/photos/1.png" alt=""></div>
 					<div class="scheduled__content">
 						<div class="scheduled__text">Со временем, смазка в часах густеет, а детали покрываются пылью, из-за чего изнашиваются механизмы. Чтобы избежать поломки, необходимо проходить плановое обслуживание раз в 3 года. Это дешевле, чем устранять неисправность по факту, а долговечность часов увеличится почти втрое.</div>
-						<div class="scheduled__icons icons">
-							<div class="icons__item"></div>
-							<div class="icons__item"></div>
-							<div class="icons__item"></div>
+						<div class="scheduled__icons icons row">
+							<div class="icons__item"><img src="upload/svg/within-big.svg" alt=""></div>
+							<div class="icons__item"><img src="upload/svg/clear.svg" alt=""></div>
+							<div class="icons__item"><img src="upload/svg/shines.svg" alt=""></div>
 						</div>
 						<div class="scheduled__text">В услугу входит полный разбор, промывание, очистка, проверка механизмов и сбор часов. Доверьте эту работу экспертам нашего сервиса, ведь мы не подвели еще ни одного клиента.</div>
-						<a href="" class="scheduled__btn btn btn_color-blue">Заказать обслуживание</a>
+						<a data-fancybox data-src="#popup-order" href="javascript:;" class="scheduled__btn btn">Заказать обслуживание</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="about">
+		<div class="about about_blue" id="about">
 			<div class="case">
 				<div class="about__title title title_white line">Что нужно знать о нашем сервисном центре</div>
+				<div class="about__logo"><img src="upload/svg/luxor_logo1_back.svg" alt=""></div>
 				<div class="about__list">
 					<div class="about__item about__item_full row">
-						<div class="about__text line">Более 18 лет оттачиваем навыки ремонта элитных часов, всегда добиваясь эталонного результата. Наши мастера работают с высокоточными инструментами и оригинальными запчастями, которые заказываются у изготовителей напрямую.</div>
+						<div class="about__text line">Более 18 лет оттачиваем навыки ремонта элитных часов, всегда добиваясь эталонного результата. Наши мастера работают с высокоточными инструментами <br>и оригинальными запчастями, которые заказываются у изготовителей напрямую.</div>
 					</div>
 					<div class="about__item about__item_full row">
-						<div class="about__img"><img src="" alt=""></div>
-						<div class="about__text line"><span class="color-orange">«LUXOR.WATCH»</span> регулярно принимает участие в международных выставках, получив сертификацию от ведущих швейцарских производителей. Мы работаем исключительно на передовом и дорогостоящем оборудовании, а работа наших мастеров уже давно признана ювелирной.</div>
+						<div class="about__img"><img src="upload/photos/2.png" alt=""></div>
+						<div class="about__text line"><span class="color-orange">«LUXOR.WATCH»</span> регулярно принимает участие <br>в международных выставках, получив сертификацию от ведущих швейцарских производителей. <br>Мы работаем исключительно на передовом <br>и дорогостоящем оборудовании, а работа наших мастеров уже давно признана ювелирной.</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about about_white">
+			<div class="case">
+				<div class="about__logo"><img src="upload/svg/luxor_logo2_back.svg" alt=""></div>
+				<div class="about__list row">
 					<div class="about__item row">
 						<div class="about__text line">В команде «LUXOR.WATCH» есть профессионалы, которые более 40 лет занимаются восстановлением швейцарских часов, поэтому у нас можно сделать ремонт действительно любой сложности. Наши мастера знают, что дорогие элитные часы достойны лишь профессионального обслуживания.</div>
 					</div>
 					<div class="about__item row">
-						<div class="about__text line">Мы предоставляем исчерпывающий перечень услуг: от замены кварцевых батареек, до ремонта сложных механизмов с хронометром по стандартам COSC сертификации, вечным и даже тройным календарем. Именно поэтому почти 40% наших клиентов являются постоянными, за что мы награждаем их бонусами в качестве подбора или изготовления запчастей на заказ, бесплатной полировкой и даже мелким ремонтом в подарок.</div>
+						<div class="about__text line">Мы предоставляем исчерпывающий перечень <br>услуг: от замены кварцевых батареек, до ремонта сложных механизмов с хронометром по стандартам COSC сертификации, вечным и даже тройным календарем. Именно поэтому почти 40% наших клиентов являются постоянными, за что мы награждаем их бонусами в качестве подбора или изготовления запчастей на заказ, бесплатной полировкой и даже мелким ремонтом в подарок.</div>
 					</div>
 				</div>
 				<div class="about__desc mid">Отремонтируем ваши часы: как внутри, так и внешне.</div>
 			</div>
 		</div>
-		<div class="default">
+		<div class="default" id="default">
 			<div class="case">
-				<div class="default__title title_white line">Качество «по умолчанию»</div>
+				<div class="default__title title title_white line">Качество «по умолчанию»</div>
 				<div class="default__text line">
-					<p>Отвечаем за работу не только деньгами, но и репутацией. Качество услуг <span class="color-orange">«LUXOR.WATCH»</span> можно назвать эталонным, и сотни довольных заказчиков – лучшее тому доказательство.</p>
-					<p>Почти половина клиентов приходит к нам по рекомендации, и еще треть после того, как с задачей не справились другие. Это лучше любых слов говорит о нашей компетентности. Качество, ювелирная работа мастеров и гарантия на услуги – три кита, на которых стоит репутация нашего сервисного центра. Убедитесь в этом сами.</p>
+					<p>Отвечаем за работу не только деньгами, <br>но и репутацией. Качество услуг <span class="color-orange">«LUXOR.WATCH»</span><br> можно назвать эталонным, и сотни довольных заказчиков – лучшее тому доказательство.</p>
+					<p>Почти половина клиентов приходит к нам <br>по рекомендации, и еще треть после того, <br>как с задачей не справились другие. Это лучше любых слов говорит о нашей компетентности. Качество, ювелирная работа мастеров и гарантия на услуги <br>– три кита, на которых стоит репутация нашего сервисного центра. Убедитесь в этом сами.</p>
 				</div>
-				<a href="" class="default__btn btn btn_color-white">Отремонтировать часы</a>
+				<a data-fancybox data-src="#popup-order" href="javascript:;" class="default__btn btn btn_color-white">Отремонтировать часы</a>
 			</div>
 		</div>
-		<div class="sevices">
+		<div class="services" id="services">
 			<div class="case">
-				<div class="sevices__title title line">Основные услуги нашего сервиса</div>
-				<div class="sevices__list row">
-					<div class="sevices__item">
-						<div class="sevices__count">01</div>
-						<div class="sevices__name">Ремонт <br>часов</div>
-						<div class="sevices__icon"></div>
-						<div class="sevices__text">Ремонт швейцарских часов любой сложности</div>
+				<div class="services__title title line">Основные услуги нашего сервиса</div>
+				<div class="services__list row">
+					<div class="services__item">
+						<div class="services__count">01</div>
+						<div class="services__name">Ремонт <br>часов</div>
+						<div class="services__icon"><img src="upload/svg/quality.svg" alt=""></div>
+						<div class="services__text">Ремонт швейцарских <br>часов любой сложности</div>
 					</div>
-					<div class="sevices__item">
-						<div class="sevices__count">02</div>
-						<div class="sevices__name">Регламентное <br>обслуживание</div>
-						<div class="sevices__icon"></div>
-						<div class="sevices__text">Плановое обслуживание механизмов</div>
+					<div class="services__item">
+						<div class="services__count">02</div>
+						<div class="services__name">Регламентное <br>обслуживание</div>
+						<div class="services__icon"><img src="upload/svg/wristwatch-tools.svg" alt=""></div>
+						<div class="services__text">Плановое обслуживание механизмов</div>
 					</div>
-					<div class="sevices__item">
-						<div class="sevices__count">03</div>
-						<div class="sevices__name">Внешний <br>вид</div>
-						<div class="sevices__icon"></div>
-						<div class="sevices__text">Полировка, восстановление и родирование корпуса</div>
+					<div class="services__item">
+						<div class="services__count">03</div>
+						<div class="services__name">Внешний <br>вид</div>
+						<div class="services__icon"><img src="upload/svg/rhodium.svg" alt=""></div>
+						<div class="services__text">Полировка, <br>восстановление <br>и родирование корпуса</div>
 					</div>
-					<div class="sevices__item">
-						<div class="sevices__count">04</div>
-						<div class="sevices__name">эксклюзивные <br>Ремешки</div>
-						<div class="sevices__icon"></div>
-						<div class="sevices__text">Изготовление эксклюзивных ремешков на заказ</div>
+					<div class="services__item">
+						<div class="services__count">04</div>
+						<div class="services__name">эксклюзивные <br>Ремешки</div>
+						<div class="services__icon"><img src="upload/svg/bands.svg" alt=""></div>
+						<div class="services__text">Изготовление <br>эксклюзивных ремешков <br>на заказ</div>
 					</div>
-					<div class="sevices__item">
-						<div class="sevices__count">05</div>
-						<div class="sevices__name">Замена <br>деталей</div>
-						<div class="sevices__icon"></div>
-						<div class="sevices__text">Замена деталей и многое другое</div>
+					<div class="services__item">
+						<div class="services__count">05</div>
+						<div class="services__name">Замена <br>деталей</div>
+						<div class="services__icon"><img src="upload/svg/within.svg" alt=""></div>
+						<div class="services__text">Замена деталей и многое другое</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="guarantees">
+		<div class="guarantees" id="guarantees">
 			<div class="case">
 				<div class="guarantees__title title title_white line">Гарантии, которые вы получаете</div>
 				<div class="guarantees__list row">
 					<div class="guarantees__item">
 						<div class="guarantees__count">01</div>
-						<div class="guarantees__icon"></div>
-						<div class="guarantees__text">100% соблюдение оговоренных сроков</div>
+						<div class="guarantees__icon"><img src="upload/svg/calendar.svg" alt=""></div>
+						<div class="guarantees__text">100% соблюдение <br>оговоренных сроков</div>
 					</div>
 					<div class="guarantees__item">
 						<div class="guarantees__count">02</div>
-						<div class="guarantees__icon"></div>
-						<div class="guarantees__text">Никаких скрытых платежей: если в процессе работы стоимость увеличится – компенсируем всё за свой счёт</div>
+						<div class="guarantees__icon"><img src="upload/svg/purse.svg" alt=""></div>
+						<div class="guarantees__text">Никаких скрытых платежей: если <br>в процессе работы стоимость <br>увеличится – компенсируем всё <br>за свой счёт</div>
 					</div>
 					<div class="guarantees__item">
 						<div class="guarantees__count">03</div>
-						<div class="guarantees__icon"></div>
-						<div class="guarantees__text">12 месяцев бесплатного гарантийного обслуживания после предоставления услуг</div>
+						<div class="guarantees__icon"><img src="upload/svg/wristwatch-tools.svg" alt=""></div>
+						<div class="guarantees__text">12 месяцев бесплатного <br>гарантийного обслуживания <br>после предоставления услуг</div>
 					</div>
 					<div class="guarantees__item">
 						<div class="guarantees__count">04</div>
-						<div class="guarantees__icon"></div>
-						<div class="guarantees__text">Страхуем все часы еще до начала ремонта</div>
+						<div class="guarantees__icon"><img src="upload/svg/sheild.svg" alt=""></div>
+						<div class="guarantees__text">Страхуем все часы еще <br>до начала ремонта</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="steps">
+		<div class="steps" id="steps">
 			<div class="case">
 				<div class="steps__title title line">Как отремонтировать часы за 7 шагов</div>
 				<div class="steps__list row">
 					<div class="steps__item">
 						<div class="steps__count">01</div>
-						<div class="steps__icon"></div>
+						<div class="steps__icon"><img src="upload/svg/chat.svg" alt=""></div>
 						<div class="steps__text">Получите бесплатную консультацию</div>
 					</div>
 					<div class="steps__item">
 						<div class="steps__count">02</div>
-						<div class="steps__icon"></div>
-						<div class="steps__text">Принесите часы на осмотр в наш сервис</div>
+						<div class="steps__icon"><img src="upload/svg/build.svg" alt=""></div>
+						<div class="steps__text">Принесите часы <br>на осмотр в наш <br>сервис</div>
 					</div>
 					<div class="steps__item">
 						<div class="steps__count">03</div>
-						<div class="steps__icon"></div>
+						<div class="steps__icon"><img src="upload/svg/quality.svg" alt=""></div>
 						<div class="steps__text">Наши мастера проводЕят диагностику</div>
 					</div>
 					<div class="steps__item">
 						<div class="steps__count">04</div>
-						<div class="steps__icon"></div>
-						<div class="steps__text">Разбираем часы и проверяем механизмы</div>
+						<div class="steps__icon"><img src="upload/svg/within.svg" alt=""></div>
+						<div class="steps__text">Разбираем часы <br>и проверяем механизмы</div>
 					</div>
 					<div class="steps__item">
 						<div class="steps__count">05</div>
-						<div class="steps__icon"></div>
+						<div class="steps__icon"><img src="upload/svg/calculation.svg" alt=""></div>
 						<div class="steps__text">Оцениваем работу</div>
 					</div>
 					<div class="steps__item">
 						<div class="steps__count">06</div>
-						<div class="steps__icon"></div>
+						<div class="steps__icon"><img src="upload/svg/repair.svg" alt=""></div>
 						<div class="steps__text">Делаем ремонт</div>
 					</div>
 					<div class="steps__item">
 						<div class="steps__count">07</div>
-						<div class="steps__icon"></div>
+						<div class="steps__icon"><img src="upload/svg/shines.svg" alt=""></div>
 						<div class="steps__text">Вы получаете часы и оплачиваете услуги. <span class="color-yellow">Готово!</span></div>
 					</div>
 				</div>
 				<div class="steps__desc">Консультация, осмотр, диагностика и проверка показателей совершенно бесплатна и выполняется в вашем присутствии.</div>
 				<div class="steps__arrow"></div>
-				<a href="" class="steps__btn btn btn_color-blue">Отремонтировать часы</a>
+				<a data-fancybox data-src="#popup-order" href="javascript:;" class="steps__btn btn">Отремонтировать часы</a>
 			</div>
 		</div>
 		<div class="bg">
-			<div class="portfolio">
+			<div class="portfolio" id="portfolio">
 				<div class="case">
 					<div class="portfolio__title title title_white line">Примеры наших работ</div>
-					<div class="portfolio__counts"><span class="count-current"></span><span class="count-total"></span></div>
-					<div class="portfolio__arrows arrows_big"></div>
-					<div class="portfolio__arrows arrows_small"></div>
+					<div class="portfolio__control">
+						<div class="portfolio__counts"><span class="count-current">1</span><span class="count-total"></span></div>
+						<div class="portfolio__arrows arrows_big"></div>
+					</div>
 					<div class="portfolio__list">
 						<div class="portfolio__item row">
 							<div class="portfolio__left">
-								<div class="portfolio__img"><img src="" alt=""></div>
+								<div class="portfolio__img-wrap">
+									<div class="portfolio__img-list">
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+									</div>
+									<div class="portfolio__img-control row i-mid">
+										<div class="portfolio__img-arrows"></div>
+										<div class="portfolio__img-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio__right">
+								<div class="portfolio__text line">
+									<h2>Полное обслуживание механизма Breitling Chronograph</h2>
+									<p>Все часы нуждаются в профилактике — даже самые престижные и дорогие. Если часы не отдавать на «техосмотр», возникнут неполадки в механизме, часы перестанут показывать правильное время или вообще остановятся.</p>
+									<p>Именно это и случилось с принесенным к нам «брейтлингом». <br>ремонт брейтлинга <br>Прекрасный хронометр с механизмом на базе ETA 7750 не <br>обслуживался более пяти лет. В результате часы начали отставать, <br>а затем останавливаться, несмотря на полный завод.</p>
+									<p>Профилактический осмотр показал, что процесс износа не успел начаться, но масло уже высохло. Если вовремя не смазать часы, может произойти износ деталей, выработка в месте контакта <br>трущихся поверхностей.</p>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__item row">
+							<div class="portfolio__left">
+								<div class="portfolio__img-wrap">
+									<div class="portfolio__img-list">
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+									</div>
+								</div>
 							</div>
 							<div class="portfolio__right">
 								<div class="portfolio__text line">
@@ -343,25 +891,61 @@
 									<p>Профилактический осмотр показал, что процесс износа не успел начаться, но масло уже высохло. Если вовремя не смазать часы, может произойти износ деталей, выработка в месте контакта трущихся поверхностей.</p>
 								</div>
 							</div>
+						</div><div class="portfolio__item row">
+							<div class="portfolio__left">
+								<div class="portfolio__img-wrap">
+									<div class="portfolio__img-list">
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+										<div class="portfolio__img"><img src="upload/works/1.png" alt=""></div>
+									</div>
+									<div class="portfolio__img-control row i-mid">
+										<div class="portfolio__img-arrows"></div>
+										<div class="portfolio__img-dots"></div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio__right">
+								<div class="portfolio__text line">
+									<h2>Полное обслуживание механизма Breitling Chronograph</h2>
+									<p>Все часы нуждаются в профилактике — даже самые престижные и дорогие. Если часы не отдавать на «техосмотр», возникнут неполадки в механизме, часы перестанут показывать правильное время или вообще остановятся.</p>
+									<p>Именно это и случилось с принесенным к нам «брейтлингом». <br>ремонт брейтлинга <br>Прекрасный хронометр с механизмом на базе ETA 7750 не <br>обслуживался более пяти лет. В результате часы начали отставать, <br>а затем останавливаться, несмотря на полный завод.</p>
+									<p>Профилактический осмотр показал, что процесс износа не успел начаться, но масло уже высохло. Если вовремя не смазать часы, может произойти износ деталей, выработка в месте контакта <br>трущихся поверхностей.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="reviews">
-				<div class="reviews__title title title_white line">Нам говорят «Спасибо»</div>
-				<div class="reviews__counts"><span class="count-current"></span><span class="count-total"></span></div>
-				<div class="reviews__list arrows_big">
-					<div class="reviews__item row">
-						<div class="reviews__img"><img src="" alt=""></div>
-						<div class="reviews__content">
-							<div class="reviews__name">Леонид Рыбачков</div>
-							<div class="reviews__text">Благодарю за качественный ремонт Улисс Нардин! В корпус попала вода, они остановились. Дорогие часы ремонтируют не везде, но в LUXOR с задачей справились отлично.</div>
+			<div class="reviews" id="reviews">
+				<div class="case">
+					<div class="reviews__wrap">
+						<div class="reviews__title title title_white line">Нам говорят «Спасибо»</div>
+						<div class="reviews__counts"><span class="count-current">1</span><span class="count-total"></span></div>
+						<div class="reviews__list arrows_big">
+							<div class="reviews__item row">
+								<div class="reviews__img"><img src="upload/reviews/1.png" alt=""></div>
+								<div class="reviews__content">
+									<div class="reviews__name">Леонид Рыбачков</div>
+									<div class="reviews__text">Благодарю за качественный ремонт Улисс Нардин! В корпус попала вода, они остановились. Дорогие часы ремонтируют не везде, но в LUXOR с задачей справились отлично.</div>
+								</div>
+							</div>	
+							<div class="reviews__item row">
+								<div class="reviews__img"><img src="upload/reviews/1.png" alt=""></div>
+								<div class="reviews__content">
+									<div class="reviews__name">Леонид Рыбачков</div>
+									<div class="reviews__text">Благодарю за качественный ремонт Улисс Нардин! В корпус попала вода, они остановились. Дорогие часы ремонтируют не везде, но в LUXOR с задачей справились отлично.</div>
+								</div>
+							</div>	
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="questions">
+		<div class="questions" id="question">
 			<div class="case">
 				<div class="questions__title title line">Остались вопросы?</div>
 				<div class="questions__desc">
@@ -375,24 +959,39 @@
 							<div class="form__left">
 								<div class="form__input input">
 									<label class="input__label">
-										<div class="input__icon"></div>
-										<div class="input__title">Укажите ваше имя</div>
+										<span class="input__icon">
+											<img src="upload/svg/persona-gray.svg" alt="">
+											<img src="upload/svg/persona-yellow.svg" alt="">
+											<img src="upload/svg/persona-red.svg" alt="">
+										</span>
+										<span class="input__title">Укажите ваше имя</span>
 									</label>
 									<input type="text" class="input__wrap" name="name">
+									<div class="input__error">Укажите ваше имя</div>
 								</div>
 								<div class="form__input input input_phone">
 									<label class="input__label">
-										<div class="input__icon"></div>
-										<div class="input__title">Укажите ваш телефон</div>
+										<span class="input__icon">
+											<img src="upload/svg/phone-gray.svg" alt="">
+											<img src="upload/svg/phone-yellow.svg" alt="">
+											<img src="upload/svg/phone-red.svg" alt="">
+										</span>
+										<span class="input__title">Укажите ваш телефон</span>
 									</label>
 									<input type="text" class="input__wrap" name="phone">
+									<div class="input__error">Укажите ваше телефон</div>
 								</div>
 								<div class="form__input input">
 									<label class="input__label">
-										<div class="input__icon"></div>
-										<div class="input__title">Ваш e-mail</div>
+										<span class="input__icon">
+											<img src="upload/svg/email-gray.svg" alt="">
+											<img src="upload/svg/email-yellow.svg" alt="">
+											<img src="upload/svg/email-red.svg" alt="">
+										</span>
+										<span class="input__title">Ваш e-mail</span>
 									</label>
 									<input type="text" class="input__wrap" name="email">
+									<div class="input__error">Укажите ваш e-mail</div>
 								</div>
 							</div>
 							<div class="form__right">
@@ -402,80 +1001,263 @@
 								</div>
 							</div>
 						</div>
-						<button class="form__btn btn btn_color-blue">Оставить заявку</button>
+						<button class="form__btn btn">Оставить заявку</button>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="contacts">
+		<div class="contacts" id="contacts">
 			<div class="case">
 				<div class="contacts__title title title_white line">Контакты</div>
-				<div class="contacts__wrap row">
-					<div class="contacts__left line">
-						<div class="contact">
-							<div class="contact__title">Основной офис</div>
-							<div class="contact__desc">г. Санкт-Петербург Крестовский остров ул. Рюхина, дом 12, 8-Н</div>
-							<div class="contact__data">
-								<ul>
-									<li><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></li>
-									<li><a href="mailto:sale@luxor.watch" class="email">sale@luxor.watch</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="contact">
-							<div class="contact__title">Пункт приёма</div>
-							<div class="contact__desc">г. Санкт-Петербург пр. Невский дом 14, 214</div>
-							<div class="contact__data">
-								<ul>
-									<li><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></li>
-									<li><a href="mailto:sale@luxor.watch " class="email">sale@luxor.watch</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="contacts__right">
-						<div class="contacts__map"></div>
-					</div>
-					<div class="contacts__left">
-						<div class="contact">
-							<div class="contact__title">Наши представители в регионах</div>
-							<div class="contact__desc">Крым, Симферополь</div>
-							<div class="contact__data">
-								<ul>
-									<li><a href="tel:+79787926151" class="phone">+7 (978) 792-61-51</a></li>
-								</ul>
-							</div>
-							<div class="contact__desc">Сызрань</div>
-							<div class="contact__data">
-								<ul>
-									<li><a href="tel:+79112823613" class="phone">+7 (911) 282-36-13</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="contacts__right">
-						<div class="contact">
-							<div class="contact__title">тАКЖЕ МОЖНО СВЯЗАТЬСЯ</div>
-							<div class="contact__links">
-								<div class="contact__links-list">
+				<div class="contacts__wrap">
+					<div class="contacts__body row">
+						<div class="contacts__left line">
+							<div class="contact">
+								<div class="contact__title">Основной офис</div>
+								<div class="contact__desc">г. Санкт-Петербург Крестовский остров <br>ул. Рюхина, дом 12, 8-Н</div>
+								<div class="contact__data">
 									<ul>
-										<li><a href="" class="sn-telegram"></a></li>
-										<li><a href="" class="sn-viber"></a></li>
-										<li><a href="" class="sn-whatsapp"></a></li>
+										<li><img width="10" height="18" class="i i-phone" src="upload/svg/phone-yellow.svg" alt=""><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></li>
+										<li><img width="17" height="10" class="i i-email" src="upload/svg/email-yellow.svg" alt=""><a href="mailto:sale@luxor.watch" class="email">sale@luxor.watch</a></li>
 									</ul>
 								</div>
-								<div class="contact__links-title"><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></div>
+							</div>
+							<div class="contact">
+								<div class="contact__title">Пункт приёма</div>
+								<div class="contact__desc">г. Санкт-Петербург пр. Невский дом 14, 214</div>
+								<div class="contact__data contact__data_more">
+									<ul>
+										<li><img width="10" height="18" class="i i-phone" src="upload/svg/phone-yellow.svg" alt=""><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></li>
+										<li><img width="17" height="10" class="i i-email" src="upload/svg/email-yellow.svg" alt=""><a href="mailto:sale@luxor.watch" class="email">sale@luxor.watch</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-						<div class="contact">
-							<div class="contact__title">мЫ В СОЦ.СЕТЯХ</div>
-							<div class="contact__links">
-								<div class="contact__links-list">
+						<div class="contacts__right">
+							<div class="contacts__map">
+								<div id="map" class="map"></div>
+								<script>
+									function initMap() {
+									  var uluru = {lat: 59.9396057, lng: 30.2530599};
+									  var map = new google.maps.Map(document.getElementById('map'), {
+									  	zoom: 11, 
+									  	center: uluru,
+									  	zoomControl: false,
+									  	disableDefaultUI: true,
+									  	styles: [
+											  {
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#f5f5f5"
+											      }
+											    ]
+											  },
+											  {
+											    "elementType": "labels.icon",
+											    "stylers": [
+											      {
+											        "visibility": "off"
+											      }
+											    ]
+											  },
+											  {
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#616161"
+											      }
+											    ]
+											  },
+											  {
+											    "elementType": "labels.text.stroke",
+											    "stylers": [
+											      {
+											        "color": "#f5f5f5"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "administrative.land_parcel",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#bdbdbd"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "poi",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#eeeeee"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "poi",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#757575"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "poi.park",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#e5e5e5"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "poi.park",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#9e9e9e"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "road",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#ffffff"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "road.arterial",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#757575"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "road.highway",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#dadada"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "road.highway",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#616161"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "road.local",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#9e9e9e"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "transit.line",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#e5e5e5"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "transit.station",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#eeeeee"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "water",
+											    "elementType": "geometry",
+											    "stylers": [
+											      {
+											        "color": "#c9c9c9"
+											      }
+											    ]
+											  },
+											  {
+											    "featureType": "water",
+											    "elementType": "labels.text.fill",
+											    "stylers": [
+											      {
+											        "color": "#9e9e9e"
+											      }
+											    ]
+											  }
+											]
+									  });
+
+									  var marker1 = new google.maps.Marker({position: {lat: 59.969857, lng: 30.2575202}, map: map, icon: 'upload/marker.png'});
+									 	var marker2 = new google.maps.Marker({position: {lat: 59.936771, lng: 30.3139993}, map: map, icon: 'upload/marker.png'});
+									}
+
+
+								</script>
+								<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfEFyS5xoi-MBgcRXgqXMSDSwCppIb7HY&callback=initMap"></script>
+							</div>
+						</div>
+					</div>
+					<div class="contacts__foot row">
+						<div class="contacts__left">
+							<div class="contact">
+								<div class="contact__title">Наши представители в регионах</div>
+								<div class="contact__desc contact__desc_small">Крым, Симферополь</div>
+								<div class="contact__data">
 									<ul>
-										<li><a href="" class="sn-vk"></a></li>
-										<li><a href="" class="sn-facebook"></a></li>
-										<li><a href="" class="sn-instagram"></a></li>
+										<li><img width="10" height="18" class="i i-phone" src="upload/svg/phone-yellow.svg" alt=""><a href="tel:+79787926151" class="phone">+7 (978) 792-61-51</a></li>
 									</ul>
+								</div>
+								<div class="contact__desc contact__desc_small">Сызрань</div>
+								<div class="contact__data">
+									<ul>
+										<li><img width="10" height="18" class="i i-phone" src="upload/svg/phone-yellow.svg" alt=""><a href="tel:+79112823613" class="phone">+7 (911) 282-36-13</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="contacts__right">
+							<div class="contact">
+								<div class="contact__title">тАКЖЕ МОЖНО СВЯЗАТЬСЯ</div>
+								<div class="contact__links row i-mid">
+									<div class="contact__links-list">
+										<ul>
+											<li><a href="" class="sn-telegram"><i class="icon icon-telegram-yellow"></i><i class="icon icon-telegram-white"></i></a></li>
+											<li><a href="" class="sn-viber"><i class="icon icon-viber-yellow"></i><i class="icon icon-viber-white"></i></a></li>
+											<li><a href="" class="sn-whatsapp"><i class="icon icon-whatsapp-yellow"></i><i class="icon icon-whatsapp-white"></i></a></li>
+										</ul>
+									</div>
+									<div class="contact__links-title"><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></div>
+								</div>
+							</div>
+							<div class="contact socials">
+								<div class="contact__title">мЫ В СОЦ.СЕТЯХ</div>
+								<div class="contact__links">
+									<div class="contact__links-list">
+										<ul>
+											<li><a href="" class="sn-vk"><i class="icon icon-vk-yellow"></i><i class="icon icon-vk-white"></i></a></li>
+											<li><a href="" class="sn-facebook"><i class="icon icon-facebook-yellow"></i><i class="icon icon-facebook-white"></i></a></li>
+											<li><a href="" class="sn-instagram"><i class="icon icon-instagram-yellow"></i><i class="icon icon-instagram-white"></i></a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -489,27 +1271,135 @@
 	<footer class="footer">
 		<div class="case row">
 			<div class="footer__left">
-				<div class="footer__logo"><img src="" alt=""></div>
+				<div class="footer__logo"><img src="upload/svg/logo.svg" alt=""></div>
 				<div class="footer__copy">© 2018 Luxor</div>
 				<div class="footer__address">г. Санкт-Петербург,  Крестовский остров ул. Рюхина, дом 12</div>
 			</div>
 			<div class="footer__right">
 				<div class="footer__nav">
 					<ul>
-						<li><a href="#">услуги</a></li>
-						<li><a href="#">о компании</a></li>
-						<li><a href="#">отзывы</a></li>
-						<li><a href="#">наши работы</a></li>
-						<li><a href="#">контакты</a></li>
+						<li><a href="#services">услуги</a></li>
+						<li><a href="#about">о компании</a></li>
+						<li><a href="#reviews">отзывы</a></li>
+						<li><a href="#portfolio">наши работы</a></li>
+						<li><a href="#contacts">контакты</a></li>
 					</ul>
 				</div>
 				<div class="footer__contacts">
-					<div class="footer__contact footer__contact_phone"><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></div>
-					<div class="footer__contact footer__contact_email"><a href="mailto:sale@luxor.watch">sale@luxor.watch</a></div>
+					<div class="footer__contact footer__contact_phone"><img width="10" height="18" src="upload/svg/phone-yellow.svg" alt=""><a href="tel:+78121234567" class="phone">+7 (812) 123-45-67</a></div>
+					<div class="footer__contact footer__contact_email"><img width="17" height="10" src="upload/svg/email-yellow.svg" alt=""><a href="mailto:sale@luxor.watch">sale@luxor.watch</a></div>
 				</div>
 			</div>
 		</div>
 	</footer>
+</div>
+
+<div class="popup popup_form popup_callback form form_popup" id="popup-callback">
+	<div class="popup__close" data-fancybox-close=""><span></span><span></span></div>
+	<div class="form__title">Оставьте заявку на обратный звонок!</div>
+	<div class="form__wrap">
+		<div class="form__elements row">
+			<div class="form__left">
+				<div class="form__input input">
+					<label class="input__label">
+						<span class="input__icon">
+							<img src="upload/svg/persona-gray.svg" alt="">
+							<img src="upload/svg/persona-yellow.svg" alt="">
+							<img src="upload/svg/persona-red.svg" alt="">
+						</span>
+						<span class="input__title">Укажите ваше имя</span>
+					</label>
+					<input type="text" class="input__wrap" name="name">
+					<div class="input__error">Укажите ваше имя</div>
+				</div>
+				<div class="form__input input input_phone">
+					<label class="input__label">
+						<span class="input__icon">
+							<img src="upload/svg/phone-gray.svg" alt="">
+							<img src="upload/svg/phone-yellow.svg" alt="">
+							<img src="upload/svg/phone-red.svg" alt="">
+						</span>
+						<span class="input__title">Укажите ваш телефон</span>
+					</label>
+					<input type="text" class="input__wrap" name="phone">
+					<div class="input__error">Укажите ваше телефон</div>
+				</div>
+				<div class="form__input input">
+					<label class="input__label">
+						<span class="input__icon">
+							<img src="upload/svg/email-gray.svg" alt="">
+							<img src="upload/svg/email-yellow.svg" alt="">
+							<img src="upload/svg/email-red.svg" alt="">
+						</span>
+						<span class="input__title">Укажите ваш e-mail</span>
+					</label>
+					<input type="text" class="input__wrap" name="email">
+					<div class="input__error">Укажите ваш e-mail</div>
+				</div>
+			</div>
+			<div class="form__right">
+				<div class="form__textarea textarea">
+					<label class="textarea__title">Ваше сообщение</label>
+					<textarea class="textarea__wrap" name="message"></textarea>
+				</div>
+			</div>
+		</div>
+		<button class="form__btn btn">Оставить заявку</button>
+	</div>
+</div>
+
+<div class="popup popup_form popup_callback form form_popup" id="popup-order">
+	<div class="popup__close" data-fancybox-close=""><span></span><span></span></div>
+	<div class="form__title">Оставьте заявку</div>
+	<div class="form__wrap">
+		<div class="form__elements row">
+			<div class="form__left">
+				<div class="form__input input">
+					<label class="input__label">
+						<span class="input__icon">
+							<img src="upload/svg/persona-gray.svg" alt="">
+							<img src="upload/svg/persona-yellow.svg" alt="">
+							<img src="upload/svg/persona-red.svg" alt="">
+						</span>
+						<span class="input__title">Укажите ваше имя</span>
+					</label>
+					<input type="text" class="input__wrap" name="name">
+					<div class="input__error">Укажите ваше имя</div>
+				</div>
+				<div class="form__input input input_phone">
+					<label class="input__label">
+						<span class="input__icon">
+							<img src="upload/svg/phone-gray.svg" alt="">
+							<img src="upload/svg/phone-yellow.svg" alt="">
+							<img src="upload/svg/phone-red.svg" alt="">
+						</span>
+						<span class="input__title">Укажите ваш телефон</span>
+					</label>
+					<input type="text" class="input__wrap" name="phone">
+					<div class="input__error">Укажите ваше телефон</div>
+				</div>
+				<div class="form__input input">
+					<label class="input__label">
+						<span class="input__icon">
+							<img src="upload/svg/email-gray.svg" alt="">
+							<img src="upload/svg/email-yellow.svg" alt="">
+							<img src="upload/svg/email-red.svg" alt="">
+						</span>
+						<span class="input__title">Укажите ваш e-mail</span>
+					</label>
+					<input type="text" class="input__wrap" name="email">
+					<div class="input__error">Укажите ваш e-mail</div>
+				</div>
+			</div>
+			<div class="form__right">
+				<div class="form__textarea textarea">
+					<label class="textarea__title">Ваше сообщение</label>
+					<textarea class="textarea__wrap" name="message"></textarea>
+				</div>
+			</div>
+		</div>
+		<button class="form__btn btn">Оставить заявку</button>
+	</div>
 </div>
 </body>
 </html>
