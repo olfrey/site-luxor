@@ -516,11 +516,6 @@
 		&__title
 			font-size: 16px
 
-
-
-	.pp
-		display: none
-
 						
 			
 			
@@ -538,4 +533,594 @@
 	.hidden-xs
 		display: none
 	
+	.header
+		padding-top: 28px
+		background-size: 1920px 1145px
+		background-position: center top
+		&__title
+			font-size: 26px
+			line-height: 48px
+			// margin-right: -15px
+			letter-spacing: 0
 
+			
+
+	.panel
+		margin-bottom: 37px
+		&__logo
+			
+		&__contacts
+
+		&__phone
+			margin-top: 6px
+			
+
+		&__insta
+			margin-left: 25px
+			margin-right: 60px
+			margin-top: 4px
+
+
+		&__mob-btn
+			z-index: 3
+			position: absolute
+			right: 15px
+			top: 0
+			width: 40px
+			height: 40px
+			border: 3px solid #e3c077
+			padding-top: 10px
+			cursor: pointer
+			transition: .3s
+			span
+				display: block
+				width: 16px
+				height: 1px
+				margin-bottom: 5px
+				background-color: #e3c077
+				margin-left: auto
+				margin-right: auto
+				transition: .3s
+				position: relative
+			&_toggle
+				border-color: #f8eedb
+				span
+					color: #fff
+					
+					&:nth-of-type(1)
+						top: 6px
+						transform: rotate(45deg)
+					&:nth-of-type(2)
+						opacity: 0
+					&:nth-of-type(3)
+						top: -6px	
+						transform: rotate(-45deg)
+
+			&:hover
+				box-shadow: 0 10px 12px rgba(216, 181, 108, 0.4)
+				background-color: #e6b246
+				border-color: #e6b246
+				span
+					background-color: #fff
+			
+
+			
+
+	.logo
+		width: 130px
+		&__img
+			width: 130px
+			
+		&__text
+			margin-left: 0
+			margin-top: 20px
+			max-width: 100%
+
+			
+	.addresses
+		padding-top: 25px
+		&__item
+			margin-right: 20px
+			&:last-of-type
+				margin-right: 0
+			
+		&__text
+			font-size: 14px
+
+
+
+	
+	.nav
+		z-index: 2
+		position: absolute
+		right: 0
+		top: -28px
+		background-color: #fff
+		margin-bottom: 0
+		width: 305px
+		padding: 40px 50px 65px 64px
+		transform: translateX(100%)
+		transition: .3s
+		&_toggle
+			transform: translateX(0)
+
+		li
+			width: 100%
+			margin-right: 0
+			margin-bottom: 44px
+			&:last-of-type
+				margin-bottom: 0
+		a
+			display: block
+			font-size: 18px
+			position: relative
+			color: #e9c989 !important
+			&:after
+				opacity: 0
+				top: 0
+				left: 31px
+				position: absolute
+				content: ''
+				width: 14px
+				height: 2px
+				background-color: #e9c989
+				top: 10px
+				left: -(14px + 19px)
+				transition: .3s
+			&:hover
+				&:after
+					opacity: 1
+			
+	.we
+		padding-top: 0
+		margin-bottom: -10px
+		&__item
+			width: 100% !important
+			padding-left: 0 !important
+			border-bottom: 1px solid #998969
+			padding-top: 33px
+			padding-bottom: 38px
+			&:last-of-type
+				border-bottom: none
+			&:before
+				left: 162px !important
+				top: 4px
+			&:nth-of-type(2)
+				.we
+					&__text
+						max-width: 290px
+							
+
+		&__icon
+			width: 160px !important
+			text-align: center
+			padding-right: 27px !important
+			img
+				margin-left: auto
+				margin-right: auto
+			
+		&__text
+			padding-top: 0 !important
+			
+
+	.title
+		font-size: 24px
+		line-height: 36px
+		
+
+	.calc
+		&__title
+			margin-bottom: 40px
+			
+		&__wrap
+			margin-left: 0
+			margin-right: 0
+			padding-left: 10px
+			padding-right: 10px
+			
+		&__drop
+			width: calc(50% - 44px)
+			margin-left: 22px
+			margin-right: 22px
+			margin-bottom: 24px
+
+		&__btn
+			margin-right: auto
+			margin-top: 6px
+			
+
+
+			
+
+	.drop__list_full-1
+		margin-left: -217px
+		.nano
+			height: 590px
+
+	.drop__list_full-2
+		margin-left: 0
+
+	.drop__list_full
+		max-height: 595px
+		width: 390px
+
+	.alfabet__body
+		li
+			flex-basis: 50% !important
+
+	.checkboxs
+		&__item
+			width: 100%
+			padding-left: 20px
+			&:last-of-type
+				display: none
+
+
+	.advantages
+		padding-top: 17px
+		&__title
+			margin-bottom: 53px
+			
+		&__item
+			width: 50%
+			margin-bottom: 39px
+
+		&__icon
+			height: 82px
+			
+
+	.full
+		margin-top: -180px
+		padding-top: 332px
+		padding-bottom: 51px
+		&__title
+			margin-bottom: 50px
+
+		&__data
+			padding-left: 0
+			margin-bottom: 15px
+			li
+				line-height: 30px
+				margin-bottom: 8px
+			
+			
+	.offer
+		margin-right: 0
+		margin-left: 0
+		&:before
+			left: 162px
+		&__icon
+			width: 162px
+			padding-right: 26px
+		&__content
+			width: calc(100% - 162px)
+
+		&__btn
+			margin-left: -65px
+			
+			
+	.scheduled
+		&__title
+			margin-bottom: 20px
+		&__img
+			display: none
+
+		&__content
+			width: 100%
+
+		&__desc
+			margin-bottom: 37px
+			
+		&__btn
+			margin-left: auto
+			
+			
+	.icons
+		padding-top: 33px
+		justify-content: space-between
+		padding-left: 22px
+		padding-right: 40px
+		margin-bottom: 18px
+		&__item
+			&:nth-of-type(2)
+				margin-left: 0
+				margin-right: 0
+			
+	.about
+		margin-top: 170px
+		&__title
+			margin-bottom: 33px
+		&__logo
+			display: none
+		&__img
+			width: 100%
+			margin-bottom: 17px
+		&__item
+			width: 100% !important
+			margin-bottom: 32px
+
+		&__text
+			max-width: 100% !important
+			padding-left: 0 !important
+
+		&_white
+			padding-top: 0
+			margin-top: 0
+			padding-bottom: 38px
+			.about
+				&__item
+					margin-bottom: 10px
+					
+		&__desc
+			margin-top: 15px
+			
+	.default
+		padding-bottom: 175px
+		&__title
+			margin-bottom: 52px
+			
+		&__text
+			margin-left: 82px
+			margin-bottom: 18px
+			
+			
+	.services
+		padding-bottom: 8px
+		&__title
+			margin-bottom: 23px
+			
+		&__item
+			width: 50%
+			margin-bottom: 67px
+
+	.guarantees
+		padding-bottom: 0
+		&__list
+			margin-left: 0
+			margin-right: 0
+			
+		&__item
+			width: 50%
+			margin-bottom: 60px
+			padding-left: 5px
+			padding-right: 5px
+
+		&__title
+			margin-bottom: 26px
+
+		&__count
+			margin-bottom: 32px
+			
+			
+	.steps
+		&__item
+			width: 50%
+			margin-bottom: 51px
+			&:nth-of-type(even)
+				&:after
+					display: none
+		&__icon
+			margin-bottom: 3px
+		
+		&__desc
+			margin-top: -5px
+			margin-bottom: 56px
+	
+
+	.bg
+		// margin-top: 246px
+		margin-top: 172px
+		padding-top: 48px
+
+
+	.portfolio
+		&__left, &__right
+			width: 100%
+			
+		&__right
+			padding-left: 0
+			padding-top: 26px
+			
+	.reviews
+		margin-top: 8px
+		padding-bottom: 190px
+		&__title
+			margin-bottom: 30px
+
+			
+		&__list
+			width: 100%
+			
+		&__counts
+			margin-bottom: 37px
+			
+	.questions
+		padding-bottom: 32px
+		&__title
+			margin-bottom: 24px
+			
+
+
+	.form
+		width: 100%
+		padding-top: 43px
+		padding-left: 42px
+		padding-right: 42px
+		&__title
+			margin-bottom: 52px
+			
+		&__left, &__right
+			width: 100%
+			
+		&__right
+			padding-left: 0
+			
+		&__textarea
+			margin-bottom: 29px
+
+
+	.contacts
+		padding-top: 56px
+		&__title
+			font-size: 30px
+			margin-bottom: 53px
+		&__left, &__right
+			width: 100%
+
+		&__left
+			padding-right: 0
+
+		
+			
+			
+			
+	.contact
+		margin-bottom: 36px
+			
+
+	.footer
+		&__nav
+			display: none
+		&__left
+			width: 60%
+		&__right
+			padding-top: 70px
+			
+		&__copy
+			margin-bottom: 3px
+			
+		&__address
+			line-height: 24px
+			
+
+
+@media screen and (max-width: 505px)
+	.logo
+		// width: 100%
+		&__text
+			// max-width: 135px
+			// margin-top: -5px
+			// margin-left: 10px
+			
+
+	.panel
+		margin-bottom: 20px
+		&__contacts
+			width: 100%
+			margin-right: 0
+			padding-top: 13px
+			padding-bottom: 10px
+		&__insta
+			right: 20px
+			top: 0
+			position: absolute
+
+		&__callback
+			text-align: left
+			
+	
+	.addresses
+		&__item
+			width: 100%
+			margin-right: 0
+
+	.header
+		background-size: 1920px 1500px
+		&__title
+			font-size: 22px
+			line-height: normal
+			text-align: center
+
+	.we
+		&__item
+			padding-top: 20px
+			padding-bottom: 20px
+			&:before
+				display: none
+			
+		&__icon, &__text
+			width: 100% !important
+			max-width: 100% !important
+
+		&__icon
+			margin-bottom: 20px
+
+	.calc
+		margin-top: 35px
+		&__title
+			margin-bottom: 20px
+		
+		&__wrap
+			padding: 10px 0 30px
+					
+		&__drop
+			width: 100%
+		
+	.drop__list_full
+		width: 100%
+
+	.drop__list_full-1
+		margin-left: 0
+
+	.alfabet__body li
+		flex-basis: 100% !important
+
+	.offer
+		&:before
+			display: none
+		&__icon
+			display: none
+		&__content
+			width: 100%
+
+		&__title
+			padding-top: 15px
+		&__btn
+			margin-left: 0
+			
+	.full
+		background-color: #102145
+
+	.about
+		&__text
+			&:before
+				margin-bottom: 18px
+
+			
+	.icons
+		padding-right: 0
+		padding-left: 0
+
+	.default
+		padding-bottom: 0
+		padding-bottom: 40px
+		background-color: #102145
+		&:after
+			display: none
+		&__text
+			margin-left: 0
+
+	.portfolio
+		&__control
+			width: 100%
+
+	.reviews__list .slick-arrow
+		z-index: 2
+
+	.form
+		padding-left: 15px
+		padding-right: 15px
+
+	.footer
+		padding-top: 20px
+		&__left
+			width: 100%
+
+		&__right
+			text-align: left
+			padding-top: 15px
+			width: 100%
+			
+		&__contact
+			margin-left: 0
+			
