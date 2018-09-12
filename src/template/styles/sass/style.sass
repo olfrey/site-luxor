@@ -230,10 +230,38 @@ input, .btn, .slick-slide, textarea
 
 
 .main-wrap
+	position: relative
 	max-width: 1920px
 	margin-left: auto
 	margin-right: auto
 	overflow-x: hidden
+
+.nav-fixed
+	z-index: 100
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	text-transform: uppercase
+	font-size: 18px
+	font-weight: 300
+	padding: 10px 0
+	background-color: #fff
+	box-shadow: 0 2px 5px rgba(3, 20, 44, 0.15)
+	transition: .3s
+	transform: translateY(-100%)
+	&_show
+		transform: translateY(0%)
+	li
+		margin-right: 30px
+		&:last-of-type
+			margin-right: 0
+	a
+		color: #e9c989
+		&:hover
+			color: #102145
+
+
 
 .title
 	font-size: 30px
@@ -257,10 +285,14 @@ input, .btn, .slick-slide, textarea
 				margin-left: 0
 
 .header
+	position: relative
+	z-index: 3
 	color: #fff
 	padding-top: 31px
 	padding-bottom: 84px
 	background: url('../../img/header.png') no-repeat center top
+	&_bg
+		background-color: #102145
 	&__title
 		font-size: 36px
 		line-height: 48px
@@ -1769,8 +1801,31 @@ input, .btn, .slick-slide, textarea
 	display: none
 
 
+.case
+	z-index: 2
 
 
+.lines
+	&__item
+		z-index: 1
+		opacity: .1
+		position: absolute
+		width: 1px
+		background-color: #bdbdbd
+		top: 0
+		bottom: 0
+		left: 50%
+		&:nth-of-type(1)
+			margin-left: -487px
+		&:nth-of-type(2)
+			margin-left: -244px
+		&:nth-of-type(3)
+			margin-left: -0.5px
+		&:nth-of-type(4)
+			margin-left: 244px
+		&:nth-of-type(5)
+			margin-left: 487px
+		
 
 
 

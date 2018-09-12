@@ -523,10 +523,42 @@ input, .btn, .slick-slide, textarea {
   margin-right: auto; }
 
 .main-wrap {
+  position: relative;
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden; }
+
+.nav-fixed {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px rgba(3, 20, 44, 0.15);
+          box-shadow: 0 2px 5px rgba(3, 20, 44, 0.15);
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%); }
+  .nav-fixed_show {
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%); }
+  .nav-fixed li {
+    margin-right: 30px; }
+    .nav-fixed li:last-of-type {
+      margin-right: 0; }
+  .nav-fixed a {
+    color: #e9c989; }
+    .nav-fixed a:hover {
+      color: #102145; }
 
 .title {
   font-size: 30px;
@@ -548,10 +580,14 @@ input, .btn, .slick-slide, textarea {
     margin-left: 0; }
 
 .header {
+  position: relative;
+  z-index: 3;
   color: #fff;
   padding-top: 31px;
   padding-bottom: 84px;
   background: url("../../img/header.png") no-repeat center top; }
+  .header_bg {
+    background-color: #102145; }
   .header__title {
     font-size: 36px;
     line-height: 48px;
@@ -1993,6 +2029,29 @@ input, .btn, .slick-slide, textarea {
 
 .arrows_small {
   display: none; }
+
+.case {
+  z-index: 2; }
+
+.lines__item {
+  z-index: 1;
+  opacity: .1;
+  position: absolute;
+  width: 1px;
+  background-color: #bdbdbd;
+  top: 0;
+  bottom: 0;
+  left: 50%; }
+  .lines__item:nth-of-type(1) {
+    margin-left: -487px; }
+  .lines__item:nth-of-type(2) {
+    margin-left: -244px; }
+  .lines__item:nth-of-type(3) {
+    margin-left: -0.5px; }
+  .lines__item:nth-of-type(4) {
+    margin-left: 244px; }
+  .lines__item:nth-of-type(5) {
+    margin-left: 487px; }
 
 .hidden-lg {
   display: none; }

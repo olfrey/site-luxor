@@ -179,7 +179,7 @@ $(document).ready(function($) {
 
 	$("a[href^='#']").click(function(){
   	var _href = $(this).attr("href");
-    $("html, body").animate({scrollTop: $(_href).offset().top+"px"}, 1500);
+    $("html, body").animate({scrollTop: $(_href).offset().top - 65 +"px"}, 1500);
     return false;
 	});
 
@@ -190,5 +190,25 @@ $(document).ready(function($) {
 	mobileBtn.click(function(event) {
 		nav.toggleClass('nav_toggle');
 		mobileBtn.toggleClass('panel__mob-btn_toggle');
+	});
+
+
+	$('.calc__btn').click(function(event) {
+		$.fancybox.open({src  : '#popup-order',type : 'inline'});
+	});
+
+	$('.header').removeClass('header_bg');
+
+
+	var navFixed = $('.nav-fixed'),
+			nav = $('.nav');
+
+	$(window).on('load scroll resize', function() {
+		var navTop = nav.offset().top;
+		if ($(window).scrollTop() > navTop) {
+			navFixed.addClass('nav-fixed_show');
+		} else{
+			navFixed.removeClass('nav-fixed_show');
+		}
 	});
 });
